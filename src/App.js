@@ -204,7 +204,7 @@ function App() {
 
         {cartItems.length === 0 ? (
           <div className="empty-cart">
-            <img src="/emptycart.png" alt="Empty Cart" />
+            <img src={`${process.env.PUBLIC_URL}/emptycart.png`} alt="Empty Cart" />
             <p>Your added items will appear here</p>
           </div>
         ) : (

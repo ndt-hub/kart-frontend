@@ -2,6 +2,8 @@
 
 A modern web application for ordering desserts, built with React.
 
+Check it out (deployed in github page): https://ndt-hub.github.io/kart-frontend/
+
 ## Description
 
 A responsive web application that allows users to browse desserts, add items to their cart, apply discount codes, and place orders. The application features a clean, intuitive interface with a focus on user experience.
