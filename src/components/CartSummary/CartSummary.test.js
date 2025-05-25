@@ -1,6 +1,6 @@
 import React from 'react';
-import { render, screen, fireEvent } from '@testing-library/react';
-import CartSummary from './index';
+import { render, screen, fireEvent, within } from '@testing-library/react';
+import CartSummary from './CartSummary';
 
 describe('CartSummary', () => {
   const mockDiscounts = [
@@ -26,7 +26,7 @@ describe('CartSummary', () => {
     );
 
     expect(screen.getByText('Subtotal')).toBeInTheDocument();
-    expect(screen.getByText('$100.00')).toBeInTheDocument();
+    expect(screen.getAllByText('$100.00')).toHaveLength(2);
   });
 
   test('renders discount rows when discounts are provided', () => {

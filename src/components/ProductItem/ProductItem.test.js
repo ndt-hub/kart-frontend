@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
-import ProductItem from './index';
+import ProductItem from './ProductItem';
 
 describe('ProductItem', () => {
   const mockProduct = {

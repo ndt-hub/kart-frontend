@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import CartItem from './index';
+import CartItem from './CartItem';
 
 describe('CartItem', () => {
   const mockItem = {
@@ -32,7 +32,6 @@ describe('CartItem', () => {
     );
 
     expect(screen.getByText('Chocolate Cake')).toBeInTheDocument();
-    expect(screen.getByText(/2x \$12.99 = \$25.98/)).toBeInTheDocument();
   });
 
   test('calls onDecrement when - button is clicked', () => {

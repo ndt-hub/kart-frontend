@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import OrderItem from './index';
+import OrderItem from './OrderItem';
 
 describe('OrderItem', () => {
   test('renders item details correctly', () => {
