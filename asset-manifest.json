@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/kart-frontend/static/css/main.ccf0317e.css",
-    "main.js": "/kart-frontend/static/js/main.a007aaca.js",
+    "main.js": "/kart-frontend/static/js/main.6667e866.js",
     "index.html": "/kart-frontend/index.html",
     "main.ccf0317e.css.map": "/kart-frontend/static/css/main.ccf0317e.css.map",
-    "main.a007aaca.js.map": "/kart-frontend/static/js/main.a007aaca.js.map"
+    "main.6667e866.js.map": "/kart-frontend/static/js/main.6667e866.js.map"
   },
   "entrypoints": [
     "static/css/main.ccf0317e.css",
-    "static/js/main.a007aaca.js"
+    "static/js/main.6667e866.js"
   ]
 }
